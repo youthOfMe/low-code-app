@@ -1,0 +1,1 @@
+export const niuma = "牛马服务"
