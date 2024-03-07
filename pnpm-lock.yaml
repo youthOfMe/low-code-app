@@ -38,6 +38,10 @@ importers:
         version: 5.3.3
 
   packages/client:
+    dependencies:
+      '@lowcode/share':
+        specifier: workspace:^
+        version: link:../share
     devDependencies:
       '@types/react':
         specifier: ^18.2.56
